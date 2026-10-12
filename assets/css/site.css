@@ -697,3 +697,17 @@ a.si--whatsapp:hover { background: #1c7c43; }
   object-fit: contain;
   transform: none;
 }
+
+/* Homepage CEO: show the full photograph */
+.leaders--home .leader:first-child .portrait {
+  aspect-ratio: auto;
+}
+
+.leaders--home .leader:first-child .portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  transform: none;
+}
