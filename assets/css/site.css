@@ -684,3 +684,16 @@ a.si--whatsapp:hover { background: #1c7c43; }
   .btn::after { display: none; }
   .ph-bg { transform: none !important; }
 }
+
+/* Show leadership photographs without cropping */
+.leaders .portrait {
+  aspect-ratio: auto;
+}
+
+.leaders .portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transform: none;
+}
